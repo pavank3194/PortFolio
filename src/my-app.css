@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(158, 157, 157);
+}
+.myImage{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 50px;
+}
+.myName{
+    float: right;
+    margin-right: 25px;
+}
+
+
+.navBar{
+    justify-content: center;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+li{
+    list-style-type: none;
+}
+.navLinks ul{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    /* color: black; */
+    font-weight: bold;
+}
