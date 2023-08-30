@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.cd5ee28b.css",
-    "main.js": "/react-gh-pages/static/js/main.abf4541f.js",
-    "static/media/passport size photo.jpg": "/react-gh-pages/static/media/passport size photo.cf04786995930a2099ef.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.cd5ee28b.css.map": "/react-gh-pages/static/css/main.cd5ee28b.css.map",
-    "main.abf4541f.js.map": "/react-gh-pages/static/js/main.abf4541f.js.map"
+    "main.css": "/PortFolio/static/css/main.cd5ee28b.css",
+    "main.js": "/PortFolio/static/js/main.83b137df.js",
+    "static/media/passport size photo.jpg": "/PortFolio/static/media/passport size photo.cf04786995930a2099ef.jpg",
+    "index.html": "/PortFolio/index.html",
+    "main.cd5ee28b.css.map": "/PortFolio/static/css/main.cd5ee28b.css.map",
+    "main.83b137df.js.map": "/PortFolio/static/js/main.83b137df.js.map"
   },
   "entrypoints": [
     "static/css/main.cd5ee28b.css",
-    "static/js/main.abf4541f.js"
+    "static/js/main.83b137df.js"
   ]
 }
