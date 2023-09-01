@@ -1,20 +1,47 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import '../my-app.css';
+import '../nav/nav.css'
 
 import myImage from '../passport size photo.jpg';
 
 
+const ScrollToSection1 = (propss) => {
+
+  const values=propss.data
+  const section = document.getElementById(values);
+  section.scrollIntoView({ behavior: 'smooth' });
+
+}
+
 const Nav= () => {
-    const List=[
-        {name:"Pavan",id:1},
-        {name:"Kalyan",id:2},
-        {name:"Bhukya",id:3}
-      ];
-      const Items=List.map(Item => 
-        <li key={Item.id}>Name of the User : {Item.name} and his Employement ID :{Item.id}</li>
-        );
+
+
+  const ScrollToSection = () => {
+
+    const section = document.getElementById('Home');
+    section.scrollIntoView({ behavior: 'smooth' });
+    
+  };
+  const ScrollToSection1 = () => {
+    const section = document.getElementById('About');
+    section.scrollIntoView({ behavior: 'smooth' });
+    
+  };
+  const ScrollToSection2 = () => {
+    const section = document.getElementById('Projects');
+    section.scrollIntoView({ behavior: 'smooth' });
+    
+  };
+  const ScrollToSection3 = () => {
+    const section = document.getElementById('Contact');
+    section.scrollIntoView({ behavior: 'smooth' });
+    
+  };
+    
     return(
+      <nav className="nav">
         <div className="navBar">
           <div>
             <p className='My-Name'>
@@ -29,10 +56,10 @@ const Nav= () => {
         </div>
         <div className="navLinks">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/About">About</a></li>
-                <li><a href="/Projects">Projects</a></li>
-                <li><a href="/Contact">Contact</a></li>
+                <li><Link to="/" onClick={ ( ScrollToSection) }>Home</Link> </li>
+                <li><Link to="/About" onClick={ScrollToSection1}>About</Link>  </li>
+                <li><Link to="/Projects" onClick={ScrollToSection2}>Projects</Link> </li>
+                <li><Link to="/Contact" onClick={ScrollToSection3}>Contact</Link> </li>
             </ul>
         </div>
         <div>
@@ -51,12 +78,8 @@ const Nav= () => {
              <a href="/"> X </a>
             </b>
         </div>
-        
-        
-      <ul>
-        {Items}
-      </ul>
         </div>
+        </nav>
     );
 };
 

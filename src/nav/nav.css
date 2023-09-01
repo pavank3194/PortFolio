@@ -1,0 +1,9 @@
+.navLinks ul li a:active , .navLinks ul li a:focus {
+    
+
+    font-size: large;
+    text-decoration-line: underline;
+    color: rgb(34, 10, 250);
+    font-weight: bolder;
+    padding: 10px;
+}
