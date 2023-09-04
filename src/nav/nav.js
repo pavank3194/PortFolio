@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import '../my-app.css';
 import '../nav/nav.css'
 
-import myImage from '../passport size photo.jpg';
+import myImage from '../passport_size_photo-removebg-preview.png';
 
 
 const ScrollToSection1 = (propss) => {

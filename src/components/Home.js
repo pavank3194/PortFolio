@@ -1,6 +1,5 @@
 import React from 'react'
-import home from '../images/passport size photo.jpg'
-import myImage from '../passport size photo.jpg'
+import myImage from '../passport_size_photo-removebg-preview.png'
 import './components.css'
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
           A good knowledge on SQL to manage the database.</h5>
       </div>
       <div className='homeImage'>
-      <img className='homeImage' src={home}  alt='My logo' />
+      <img className='homeImage' src={myImage}  alt='My logo' />
       </div>
       </div>
     </div>
